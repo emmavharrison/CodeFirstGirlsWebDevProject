@@ -1,0 +1,68 @@
+#uniWelcome{
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    border: 5px rgb(13, 100, 187);
+    border-style: dotted;
+    padding: 15px;
+    margin: 60px;
+    text-align: center;
+    color: white;
+}
+
+#uniButtons{
+    display: flex;;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+#nottinghamButton{
+    background-color: royalblue;
+    color: white;
+    border-radius: 8px;
+    padding: 14px 40px;
+    transition-duration: 0.5s;
+}
+
+#nottinghamButton:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    padding: 14px 40px;
+}
+
+#edinburghButton{
+    background-color: rgb(255, 89, 89);
+    color: white;
+    border-radius: 8px;
+    padding: 14px 40px;
+    transition-duration: 0.5s;
+}
+
+#edinburghButton:hover{
+    background-color: #ff0606ef;
+    color: white;
+    border-radius: 8px;
+    padding: 14px 40px;
+}
+
+
+#uclButton{
+    background-color: rgb(163, 91, 163);
+    color: white;
+    border-radius: 8px;
+    padding: 14px 40px;
+    transition-duration: 0.5s;
+    
+}
+
+#uclButton:hover{
+    background-color: purple;
+    color: white;
+    border-radius: 8px;
+    padding: 14px 40px;
+}

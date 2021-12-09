@@ -1,0 +1,53 @@
+#quizContent{
+    color: white;
+    display: flex;
+    font-size: medium;
+    border-style: solid;
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    margin-bottom: 30px;
+    background: linear-gradient(311deg, #1b7dce, #65a3d7, #09487d, #bd1c94, #ea50c3, #700a56);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#submitButton{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(243, 98, 195);
+    color: white;
+    border-radius: 8px;
+    padding: 14px 40px;
+    transition-duration: 0.5s;
+
+}
+
+#submitButton:hover{
+    background-color: rgb(241, 28, 117);
+}

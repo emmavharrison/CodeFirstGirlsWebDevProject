@@ -1,0 +1,61 @@
+.introduction {
+    background-image: url(../images/universitylibrary.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0;
+    margin-bottom: 0;
+    height: 300px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+  }
+
+.introBorder {
+    background-color: black;
+    height: 80px;
+    font-family: 'Merriweather', serif;
+  }
+
+.introBorder2 {
+  background-color: black;
+  height: 130px;
+  font-family: 'Merriweather', serif;
+  }
+
+.welcome{
+  font-family: 'Merriweather', serif;
+}
+
+.glowtext{
+  font-family: 'Merriweather', serif;
+  color: aliceblue;
+  text-shadow:
+    /* White glow */
+    0 0 20px rgba(253, 66, 66, 0.986),
+    0 0 30px rgb(241, 82, 82),
+    0 0 40px rgb(255, 114, 114),
+    /* Green glow */
+    0 0 15px rgb(238, 18, 18),
+    0 0 30px rgb(240, 7, 7),
+    0 0 40px rgb(202, 2, 2),
+    0 0 102px rgb(224, 33, 27),
+    0 0 151px rgb(228, 10, 10);
+}
+
+/* .introBorderTwo {
+    background-color: white;
+    height: 100px;
+  } */
+
+#footer{
+  color: aliceblue;
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+  line-height: 50px;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  background: linear-gradient(84deg, #d50000, #ff8e1f, #eed824, #52ee24, #167db7, #b716aa);
+  background-size: 100% 100%;
+}
+
+

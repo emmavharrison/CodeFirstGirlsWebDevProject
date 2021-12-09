@@ -1,0 +1,41 @@
+#aboutUniOfNottingham{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    border-style: ridge;
+    border-color: #f1571ffa;
+    padding: 5px;
+    width: 50%;
+    float: left;
+    margin: 15px;
+    background: linear-gradient(303deg, #b6f2e2, #3083d4, #15508a, #5a80a7, #1de4f9);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 16s ease infinite;
+    -moz-animation: AnimationName 16s ease infinite;
+    animation: AnimationName 16s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 24%}
+    50%{background-position:100% 77%}
+    100%{background-position:0% 24%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 24%}
+    50%{background-position:100% 77%}
+    100%{background-position:0% 24%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 24%}
+    50%{background-position:100% 77%}
+    100%{background-position:0% 24%}
+}
+
+#nottsMap{
+    float: right;
+    margin: 15px;
+}
+
+#footer {
+    clear: both;
+  }

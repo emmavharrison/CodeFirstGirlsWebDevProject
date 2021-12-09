@@ -1,0 +1,41 @@
+#aboutUCL{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    border-style: ridge;
+    border-color: #f1571ffa;
+    padding: 5px;
+    width: 50%;
+    float: left;
+    margin: 15px;
+    background: linear-gradient(101deg, #ae38e4, #5a99d5, #a300ff);
+    background-size: 600% 600%;
+    
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 68%}
+        50%{background-position:100% 33%}
+        100%{background-position:0% 68%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 68%}
+        50%{background-position:100% 33%}
+        100%{background-position:0% 68%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 68%}
+        50%{background-position:100% 33%}
+        100%{background-position:0% 68%}
+    }
+
+#UCLMap{
+    float: right;
+    margin: 15px;
+    }
+
+#footer {
+    clear: both;
+  }

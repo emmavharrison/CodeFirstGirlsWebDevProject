@@ -1,0 +1,27 @@
+#contactForm{
+    color: darkorange;
+    display: flex;
+    border-style: solid;
+    width: 600px;
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#submitForm{
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(243, 98, 195);
+    color: white;
+    transition-duration: 0.5s;
+    border-radius: 8px;
+}
+
+#submitForm:hover{
+    background-color: rgb(241, 28, 117);
+}
